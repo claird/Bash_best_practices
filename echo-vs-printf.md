@@ -14,8 +14,8 @@ output an extra newline
 ...](https://unix.stackexchange.com/questions/58310/difference-between-printf-and-echo-in-bash#:~:text=Both%20echo%20and%20printf%20are%20built-in%20commands%20%28printf,gives%20a%20non-zero%20exit%20status%20code%20upon%20failure.)",
 that's not the whole truth:
 * `printf` is better standardized;
-* The two differ in how they hande **escape characters**; ...
-* [... security ...]
+* The two differ in how they handle **escape characters**; and
+* `echo`'s variations are large enough to constitute **security surprises**.
 
 ## Standardization
 
@@ -46,6 +46,8 @@ ab\tcd\n
 While `echo` can be easier, and perhaps require fewer keystrokes, to program in common cases, the examples above make it clear that [`printf` is
 more consistent and flexible across different environments](https://www.in-ulm.de/~mascheck/various/echo+printf/).  `echo`'s surprises are so
 many that its use arguably creates [security hazards](https://mywiki.wooledge.org/BashPitfalls#echo_.24foo).
+
+[Provide explicit example of security risk.]
 
 ## Performance considerations
 
