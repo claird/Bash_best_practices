@@ -7,7 +7,7 @@ It's time for one of your **Bash**-coded applications to write a bit of content 
 Most of us learn `echo` early in our **Bash** careers.  `echo` is so capable that it's possible to code successfully for _years_ without touching
 on `printf` as an alternative to `echo`.  What's
 the point of the latter, then?  Is one just like the other, with a default terminal `newline`?  Do experienced coders have any reason more interesting
-than pretension for their frequent use of `printf`?
+than [pretension](https://softwareengineering.stackexchange.com/questions/64416/do-programmers-sometimes-intentionally-over-complicate-code) for their frequent use of `printf`?
 
 There _is_, in fact, more to the story.  While quite a few commentators apparently believe that "[... [t]he only difference ... is `echo` will
 output an extra newline
