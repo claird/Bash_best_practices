@@ -20,7 +20,7 @@ that's not the whole truth:
 ## Standardization
 
 On MacOS 13.2.1, for instance, `/bin/bash` pops up as `... version 3.2.57 ...`  Modern Linux distributions tend to operate with version 5.1.4 or greater.  The `echo` available within `/bin/bash` behaves differently with regard to `-n` in versions 3.2 and before, compared to 4.0 and later.  One summary:  "[Applications aiming for maximum portability are strongly encouraged to use `printf` ...](https://nixdoc.net/man-pages/freebsd/man8/man1/echo.1.html)"
-Also, "[... `printf` is a preferred alternative ...]([printf(1) is a preferred alternative](https://www.man7.org/linux/man-pages/man1/echo.1.html))"
+Also, "[... `printf` is a preferred alternative ...](https://www.man7.org/linux/man-pages/man1/echo.1.html)"
 
 Conclusion:  the behavior of [`printf` is more uniform](https://www.in-ulm.de/~mascheck/various/echo+printf/)
 across different `bash` environment than is that of `echo`.
