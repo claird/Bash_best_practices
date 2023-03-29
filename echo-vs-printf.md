@@ -23,7 +23,7 @@ On MacOS 13.2.1, for instance, `/bin/bash` pops up as `... version 3.2.57 ...`  
 Also, "[... `printf` is a preferred alternative ...](https://www.man7.org/linux/man-pages/man1/echo.1.html)"
 
 Conclusion:  the behavior of [`printf` is more uniform](https://www.in-ulm.de/~mascheck/various/echo+printf/)
-across different `bash` environment than is that of `echo`.  Bluntly,
+across different `bash` environments than is that of `echo`.  Bluntly,
 "[... there's never a good reason to use `echo` ...](https://askubuntu.com/questions/467747/which-is-better-printf-or-echo#:~:text=The%20only%20reason%20to%20use%20echo%20rather%20than,there%27s%20never%20a%20good%20reason%20to%20use%20echo.)"
 
 ## Escape characters
