@@ -4,7 +4,8 @@ It's time for one of your **Bash**-coded applications to write a bit of content 
 
 ## Dramatic personae
 
-Most of us learn `echo` early in our **Bash** careers.  It's possible to code successfully for _years_ without touching on `printf`.  What's
+Most of us learn `echo` early in our **Bash** careers.  `echo` is so capable that it's possible to code successfully for _years_ without touching
+on `printf`.  What's
 the point of the latter, then?  Is one just like the other, with a default terminal `newline`?  Do experienced coders have any reason stronger
 than pretense for their frequent use of `printf`?
 
@@ -17,7 +18,7 @@ that's not the whole truth:
 * [... security ...]
 
 ## Standardization
-57
+
 On MacOS 13.2.1, for instance, `/bin/bash` pops up as `... version 3.2.57 ...`  Modern Linux distributions tend to operate with version 5.1.4 or greater.
 
-`` 
+...
