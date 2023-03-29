@@ -52,13 +52,13 @@ many that its use arguably creates [security hazards](https://mywiki.wooledge.or
 
 ## Performance considerations
 
-Production-level **Bash** programming probably is best off to eschew `echo` entirely, in favor of `printf`.  To repeat the conclusions above:
+[Production-level](https://stackoverflow.com/questions/3908038/what-is-production-level-code) **Bash** programming probably is best off to eschew `echo` entirely, in favor of `printf`.  To repeat the conclusions above:
 `printf` is more consistent and manageable.
 
 However, [`echo` _is_ faster](https://unix.stackexchange.com/questions/65803/why-is-printf-better-than-echo/159115#159115).  On yet another hand,
 if you have a production-level program where `echo`'s speed advantage is consequential ... well,
 [you probably need a more delicate analysis](https://unix.stackexchange.com/questions/297792/how-complex-can-a-program-be-written-in-pure-bash)
-than fits in this little essay.
+than fits in this little essay.  As a starting point:  don't leave home without [**ShellCheck**](https://www.shellcheck.net/).
 
 ## printf vs print
 
