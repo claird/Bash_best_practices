@@ -45,9 +45,9 @@ ab\tcd\n
 
 ## Security
 
-While `echo` can be easier, and perhaps require fewer keystrokes, to program in common cases, the examples above make it clear that [`printf` is
-more consistent and flexible across different environments](https://www.in-ulm.de/~mascheck/various/echo+printf/).  `echo`'s surprises are so
-many that its use arguably creates [security hazards](https://mywiki.wooledge.org/BashPitfalls#echo_.24foo).
+Although `echo` can be easier, and perhaps require fewer keystrokes, to program in common cases, the examples above make it clear that
+[`printf` is more consistent and flexible across different environments](https://www.in-ulm.de/~mascheck/various/echo+printf/).
+`echo`'s surprises are so many that its use arguably creates [security hazards](https://mywiki.wooledge.org/BashPitfalls#echo_.24foo).
 
 [Provide explicit example of security risk.]
 
