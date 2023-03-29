@@ -28,7 +28,8 @@ across different `bash` environments than is that of `echo`.  Bluntly,
 
 ## Escape characters
 
-More recent `echo` doesn't honor escaped characters.  More specifically, `S='ab\tcd\n'; echo "$S"; printf "$S"; printf %s "$S"` with most Linuxes results in
+More recent `echo` doesn't honor escaped characters.  More specifically, `S='ab\tcd\n'; echo "$S"; printf "$S"; printf %s "$S"` with most
+current Linuxes results in
 ```bash
 ab\tcd\n
 ab	cd
