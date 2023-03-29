@@ -14,7 +14,7 @@ output an extra newline
 ...](https://unix.stackexchange.com/questions/58310/difference-between-printf-and-echo-in-bash#:~:text=Both%20echo%20and%20printf%20are%20built-in%20commands%20%28printf,gives%20a%20non-zero%20exit%20status%20code%20upon%20failure.)",
 that's not the whole truth:
 * `printf` is better standardized;
-* The two differ in how they handle **escape characters**; and
+* The two differ especially in how they handle **escape characters**; and
 * `echo`'s variations are large enough to constitute **security surprises**.
 
 ## Standardization
